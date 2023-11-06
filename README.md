@@ -20,7 +20,7 @@ This repository reflects the successful completion of a Udemy course, where I've
   
 <h2>Original Repository Link</h2>
     <p><a href="https://github.com/sameer8saini/NZWalks-Solution/tree/master">https://github.com/sameer8saini/NZWalks-Solution/tree/master</a></p>
-______
+
 Feel free to explore the API and use it for your web development projects.
 
 Thanks for your intrest 
