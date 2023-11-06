@@ -1,7 +1,9 @@
 # New Zealand Walks API
 
-This API is designed to provide information and functionality related to New Zealand's scenic walks. Below, you'll find a brief overview of the objectives and features of this API.
+This repository reflects the successful completion of a Udemy course, where I've gained proficiency in creating an ASP.NET Core Web API, mastered the use of Entity Framework Core and SQL Server for data management, and implemented strong Authentication and Authorization mechanisms—all within the framework of .NET 7. Explore this repository to leverage the knowledge and skills acquired during the course.
 
+<h2>Course Link</h2>
+    <p><a href="https://www.udemy.com/share/106wyO3@FNiotWd5x0c81JBTs-tfZpqvDOAnD--EtWsQRymAJP7AZvo8ziwp98lYsWoPfsaBSQ==/">Udemy Course Link</a></p>
 ## API Objectives:
 
 - Provide access to information about various walking trails and paths in New Zealand.
@@ -13,13 +15,9 @@ This API is designed to provide information and functionality related to New Zea
 - Enable API versioning to manage and maintain backward compatibility.
 - Facilitate the consumption of the API by client applications.
 - Offer deployment to Microsoft Azure for public accessibility.
-
-## How to Use
-
-To get started with this API, please refer to the documentation and endpoints provided 
-within this repository. Detailed information on how to interact with the API is available
- in the code and documentation.
-
+  
+<h2>Original Repository Link</h2>
+    <p><a href="https://github.com/sameer8saini/NZWalks-Solution/tree/master">https://github.com/sameer8saini/NZWalks-Solution/tree/master</a></p>
 ______
 Feel free to explore the API and use it for your web development projects.
 
