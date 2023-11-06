@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-nzwalks-eastus-div-001/databases/sqldb-nzwalks-eastus-div-001",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:NZWalksConnectionStrings",
+      "dynamicId": null
+    },
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-nzwalks-eastus-div-001/databases/sqldb-nzwalks-eastus-div-001",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:NZWalksAuthConnectionStrings",
+      "dynamicId": null
+    }
+  }
+}

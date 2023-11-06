@@ -1,0 +1,13 @@
+2023-11-03 15:56:46.555 +02:00 [FTL] Application startup exception
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
