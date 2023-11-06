@@ -4,6 +4,8 @@ This repository reflects the successful completion of a Udemy course, where I've
 
 <h2>Course Link</h2>
     <p><a href="https://www.udemy.com/share/106wyO3@FNiotWd5x0c81JBTs-tfZpqvDOAnD--EtWsQRymAJP7AZvo8ziwp98lYsWoPfsaBSQ==/">Udemy Course Link</a></p>
+
+
 ## API Objectives:
 
 - Provide access to information about various walking trails and paths in New Zealand.
